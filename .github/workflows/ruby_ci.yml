@@ -9,4 +9,4 @@ jobs:
       with:
         ruby-version: 2.7
     - name: Run CI
-      run: gem install && bin/test
+      run: bundle install && bin/test
